@@ -4,6 +4,7 @@
     font-family: 'Lora', serif;
 }
 .header{
+    /*overflow: hidden; */
     min-height: 100vh;
     width: 100%;
     background-color: white;
@@ -89,8 +90,38 @@ nav img{
     background: #E3AAAF;
     transition: 1s;
 }
+nav .fa-solid{
+    display: none;
+}
+
+
 @media(max-width: 700px){
+    *{overflow-x: hidden;}
     .text-box h1{
         font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #515675;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        
+    }
+    nav .fa-solid{
+        display: block;
+        color: #515675;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
     }
 }
