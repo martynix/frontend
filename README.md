@@ -1,4 +1,5 @@
 # Beauty By Name - Software Development Skills: Front-End 2023-24
+# Martyna Pitera
 # Introduction
 This repository contains the necessary files to run this website, including HTML files, CSS stylesheets, and an images folder.
 
