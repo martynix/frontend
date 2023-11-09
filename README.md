@@ -19,9 +19,9 @@ Ensure the file structure looks like this:
     ├── index.html <br>
     ├── style.css <br>
     ├── images/ <br>
-     |    ├── image1.jpg <br>
-     |    ├── image2.jpg <br>
-     |    └── ... <br>
+    |    ├── image1.jpg <br>
+    |    ├── image2.jpg <br>
+    |    └── ... <br>
     └── README.md  <br>
 
 
@@ -30,7 +30,7 @@ Locate the index.html file and double-click to open it in your preferred web bro
 Alternatively, you can right-click on index.html and select "Open with" to choose your web browser.
 
 4. Viewing the Website
-The website should now be open in your web browser. Explore the content.
+The website should now be open in your web browser. Explore the content. Additionally, you can watch the video (video.mp4) showcasing the website.
 
 5. Customizing the Website
 Feel free to customize the content, images, and styles according to your preferences. The HTML files can be edited using any text editor, and the CSS styles are stored in the style.css file.
