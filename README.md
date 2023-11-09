@@ -17,6 +17,9 @@ Ensure the file structure looks like this:
 
 /frontend <br>
     ├── index.html <br>
+    ├── about.html <br>
+    ├── offer.html <br>
+    ├── contact.html <br>
     ├── style.css <br>
     ├── images/ <br>
     |    ├── image1.jpg <br>
