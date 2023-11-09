@@ -15,7 +15,7 @@ Clone or download this repository to your local machine.
 2. File Structure
 Ensure the file structure looks like this:
 
-/frontend
+/frontend <br>
     ├── index.html <br>
     ├── style.css <br>
     ├── images/ <br>
