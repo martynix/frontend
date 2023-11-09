@@ -10,6 +10,21 @@
         rel="stylesheet">
         <!--<script src="https://kit.fontawesome.com/961cf6a213.js" crossorigin="anonymous"></script>-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const menuIcon = document.querySelector('.fa-bars');
+                const closeIcon = document.querySelector('.fa-xmark');
+                const navLinks = document.querySelector('.nav-links');
+        
+                menuIcon.addEventListener('click', function() {
+                    navLinks.classList.toggle('show');
+                });
+        
+                closeIcon.addEventListener('click', function() {
+                    navLinks.classList.remove('show');
+                });
+            });
+        </script>
     </head>
     <body>
         <section class="header">

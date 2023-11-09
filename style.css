@@ -125,3 +125,6 @@ nav .fa-solid{
         padding: 30px;
     }
 }
+.show {
+    right: 0;
+}
