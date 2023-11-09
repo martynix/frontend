@@ -15,8 +15,6 @@ Clone or download this repository to your local machine.
 2. File Structure
 Ensure the file structure looks like this:
 
-markdown
-Copy code
 /frontend
     ├── index.html
     ├── style.css
@@ -25,6 +23,7 @@ Copy code
     |    ├── image2.jpg
     |    └── ...
     └── README.md
+
 
 3. Open in a Web Browser
 Locate the index.html file and double-click to open it in your preferred web browser.
