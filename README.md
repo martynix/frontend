@@ -16,13 +16,13 @@ Clone or download this repository to your local machine.
 Ensure the file structure looks like this:
 
 /frontend
-    ├── index.html
-    ├── style.css
-    ├── images/
-    |    ├── image1.jpg
-    |    ├── image2.jpg
-    |    └── ...
-    └── README.md
+    ├── index.html <br />
+    ├── style.css <br />
+    ├── images/ <br />
+    |    ├── image1.jpg <br />
+    |    ├── image2.jpg <br />
+    |    └── ... <br />
+    └── README.md  <br />
 
 
 3. Open in a Web Browser
