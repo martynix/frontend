@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Beauty by Name </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!--<link href="<link rel="preconnect" href="https://fonts.googleapis.com">-->
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" 
+        rel="stylesheet">
+        <!--<script src="https://kit.fontawesome.com/961cf6a213.js" crossorigin="anonymous"></script>-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img class="logo" style="width: 200px;" src="images/logo.jpg" alt=""></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="offer.html">Offer</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Offer</h1>
+        </section>
+
+<!-------------------------offer------------------------------------------>
+
+<div class="wrapper">
+    <div class="pricing-table">
+      <div class="pricing-box">
+        <h2>Free Membership</h2>
+        <span class="price">Massages</span>
+        <p class="description">Relaxing massages.</p>
+        <span class="pricing-table-divider"></span>
+        <a class="btn" href="#"><b>Contact us</b></a>
+        <span class="pricing-table-divider"></span>
+        <ul>
+          <li>For relaxation</li>
+          <li>For health</li>
+        </ul>
+      </div>
+      <div class="pricing-box">
+        <h2>Skincare</h2>
+        <span class="price">From $80</span>
+        <p class="description">Tailored skincare solutions to meet your needs</p>
+        <span class="pricing-table-divider"></span>
+        <a class="btn" href="#"><b>Contact us</b></a>
+        <span class="pricing-table-divider"></span>
+        <ul>
+          <li>Peelings</li>
+          <li>Peptide skin therapy</li>
+          <li>Redness reduce</li>
+          <li>Filler&Contour</li>
+        </ul>
+      </div>
+      <div class="pricing-box pricing-table-best">
+        <h2>Makeup</h2>
+        <span class="price">$100</span>
+        <p class="description">Makeup for any occasion.</p>
+        <span class="pricing-table-divider"></span>
+        <a class="btn" href="#"><b>Contact us</b></a>
+        <span class="pricing-table-divider"></span>
+        <ul>
+          <li>Weddings</li>
+          <li>Photoshoots</li>
+          <li>Parties</li>
+          <li>And many, many more...</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+<!-------------------------footer----------------------------------------------------->
+
+<section class="footer">
+    <h4>Beauty By Name</h4>
+    <p>Step into our tranquil oasis and let us illuminate your inner radiance. <br> Meet beauty. Beauty by YOUR name.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+    </div>
+    <p>Made by Martyna Pitera</p>
+</section>
+
+<!------------------------ Javascript for hamburger menu ----------------------------->
+    
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right="0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right="-200px";
+            }
+        </script> 
+    </body>
+</html>
