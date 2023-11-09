@@ -112,6 +112,7 @@ nav .fa-solid{
         right: -200px;
         text-align: left;
         z-index: 2;
+        transition: 1s;
         
     }
     nav .fa-solid{
@@ -125,6 +126,6 @@ nav .fa-solid{
         padding: 30px;
     }
 }
-.show {
+/*.show {
     right: 0;
-}
+}*/

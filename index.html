@@ -10,7 +10,7 @@
         rel="stylesheet">
         <!--<script src="https://kit.fontawesome.com/961cf6a213.js" crossorigin="anonymous"></script>-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <script>
+       <!-- <script>
             document.addEventListener('DOMContentLoaded', function() {
                 const menuIcon = document.querySelector('.fa-bars');
                 const closeIcon = document.querySelector('.fa-xmark');
@@ -24,14 +24,14 @@
                     navLinks.classList.remove('show');
                 });
             });
-        </script>
+        </script> -->
     </head>
     <body>
         <section class="header">
             <nav>
                 <a href="index.html"><img class="logo" style="width: 200px;" src="images/logo.jpg" alt=""></a>
-                <div class="nav-links">
-                    <i class="fa-solid fa-xmark"></i>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">About</a></li>
@@ -39,7 +39,7 @@
                         <li><a href="">Contact</a></li>
                     </ul>
                 </div>
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </nav>
             
             <div class="text-box">
@@ -50,6 +50,18 @@
             </div>
 
         </section>
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right="0";
+            }
 
+            function hideMenu() {
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+
+        
     </body>
 </html>
