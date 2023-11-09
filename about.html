@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Beauty by Name </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!--<link href="<link rel="preconnect" href="https://fonts.googleapis.com">-->
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" 
+        rel="stylesheet">
+        <!--<script src="https://kit.fontawesome.com/961cf6a213.js" crossorigin="anonymous"></script>-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img class="logo" style="width: 200px;" src="images/logo.jpg" alt=""></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="offer.html">Offer</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+<!-------------------------about us content------------------------------------------>
+
+<section class="'about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Beauty By Name</h1>
+            <p>At our salon, we take pride in our team of dedicated and skilled beauticians. With years of experience in the industry, our professionals are passionate about enhancing your natural beauty and boosting your confidence.
+                Our commitment to excellence goes beyond just techniques and treatments. We believe in providing a personalized and comfortable experience for each and every client. From rejuvenating facials to precise makeup application, our beauticians are here to bring out your best self.
+                We stay updated with the latest trends and techniques to ensure you receive the highest quality of service. Our goal is to create a space where you can relax, unwind, and leave feeling revitalized.
+                Meet our team of talented beauticians, each with their own unique expertise and flair for beauty. We look forward to welcoming you to our salon and helping you look and feel your absolute best.</p>
+                <div class="btn-container">
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+</section>
+
+
+<!-------------------------footer----------------------------------------------------->
+
+<section class="footer">
+    <h4>Beauty By Name</h4>
+    <p>Step into our tranquil oasis and let us illuminate your inner radiance. <br> Meet beauty. Beauty by YOUR name.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+    </div>
+    <p>Made by Martyna Pitera</p>
+</section>
+
+<!------------------------ Javascript for hamburger menu ----------------------------->
+    
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right="0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+
+        
+    </body>
+</html>
