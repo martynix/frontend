@@ -19,9 +19,9 @@ Ensure the file structure looks like this:
     ├── index.html <br>
     ├── style.css <br>
     ├── images/ <br>
-    |    ├── image1.jpg <br>
-    |    ├── image2.jpg <br>
-    |    └── ... <br>
+     |    ├── image1.jpg <br>
+     |    ├── image2.jpg <br>
+     |    └── ... <br>
     └── README.md  <br>
 
 
