@@ -34,3 +34,6 @@ The website should now be open in your web browser. Explore the content. Additio
 
 # Customizing the Website
 Feel free to customize the content, images, and styles according to your preferences. The HTML files can be edited using any text editor, and the CSS styles are stored in the style.css file.
+
+# Deployed Website
+https://martynix.github.io/frontend/
