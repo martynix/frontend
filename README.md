@@ -34,9 +34,12 @@ Alternatively, you can right-click on index.html and select "Open with" to choos
 
 # Viewing the Website
 The website should now be open in your web browser. Explore the content. Additionally, you can watch the video (video.mp4) showcasing the website.
+Link for the video: https://github.com/martynix/frontend/assets/112055662/a3766471-c20a-42d2-8993-00ad41bf09fa
 
 # Customizing the Website
 Feel free to customize the content, images, and styles according to your preferences. The HTML files can be edited using any text editor, and the CSS styles are stored in the style.css file.
 
 # Deployed Website
 https://martynix.github.io/frontend/
+
+
